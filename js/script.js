@@ -1,7 +1,14 @@
-var text = document.querySelector("h1");
+var text = document.querySelector(".titulo_1");
+text.textContent = "Vegarecida";
 
-console.log(text);
-text.textContent = "Nutrição Saudável";
+var paciente = document.querySelector(".paciente");
 
-var text_2 = document.querySelector(".titulos_2");
-text_2.textContent = "anjinhos";
+var peso = paciente.querySelector(".info-peso").textContent;
+
+var altura = paciente.querySelector(".info-altura").textContent;
+
+var imc = document.querySelector(".info-imc").textContent;
+
+
+
+
